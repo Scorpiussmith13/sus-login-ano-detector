@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS junk files
+.DS_Store
+Thumbs.db
