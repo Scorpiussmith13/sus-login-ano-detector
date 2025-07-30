@@ -7,8 +7,8 @@ from tensorflow.keras.models import load_model
 app = FastAPI()
 
 # Load resources once at startup
-iso_forest = joblib.load("isolation_forest_model.joblib")
-autoencoder = load_model("autoencoder_model.h5")
+iso_forest = joblib.load("models/isolation_forest_model.joblib")
+autoencoder = load_model("models/autoencoder_model.keras")
 scaler = joblib.load("scaler.joblib")
 
 # Define the expected input
