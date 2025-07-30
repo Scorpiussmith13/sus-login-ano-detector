@@ -24,21 +24,27 @@ This project detects suspicious or anomalous login behavior using an unsupervise
 ```bash
 git clone https://github.com/Scorpiussmith13/sus-login-ano-detector.git
 cd sus-login-ano-detector
-2. Create Virtual Environment (Optional but Recommended)
 
+```
+
+### 2. Create Virtual Environment (Optional but Recommended)
+```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 source venv/bin/activate  # macOS/Linux
+```
 
-
-3. Install Dependencies
+###3. Install Dependencies
+```bash
 pip install -r requirements.txt
 
+```
 
-4. Run Model / Notebook
+###4. Run Model / Notebook
+```bash
 python src/train_model.py
 # or open and run notebooks/model_testing.ipynb
-
+```
 
 ## 📌 To Do
 
